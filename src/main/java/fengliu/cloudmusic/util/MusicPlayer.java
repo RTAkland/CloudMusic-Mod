@@ -273,7 +273,7 @@ public class MusicPlayer implements Runnable {
      * 播放下一首
      */
     public void next() {
-        if (this.playList.size() == 0) {
+        if (this.playList.isEmpty()) {
             return;
         }
 

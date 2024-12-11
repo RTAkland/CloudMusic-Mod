@@ -45,3 +45,4 @@ replay_*.log
 /.idea
 /remappedSrc
 /run
+.kotlin/

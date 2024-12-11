@@ -9,6 +9,7 @@ import fengliu.cloudmusic.music163.data.DjMusic;
 import fengliu.cloudmusic.music163.data.Music;
 import fengliu.cloudmusic.render.MusicIconTexture;
 import fengliu.cloudmusic.util.MusicPlayer;
+import fengliu.cloudmusic.util.Renderer;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;
@@ -48,6 +49,7 @@ public class MixinInGameHud {
                 lyricY += 10;
             }
         });
+        Renderer instance = Renderer.INSTANCE;
     }
 
     @Unique
